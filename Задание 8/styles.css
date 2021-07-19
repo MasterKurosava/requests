@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.input_container {
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input_btn {
+  width: 200px;
+}
+
+.input_limitSpan {
+  display: inline-block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.input_numberSpan {
+  width: 150px;
+}
+
+p {
+  color: #ff3333;
+  display: inline-block;
+  margin: 10px;
+  font-size: 0.8em;
+}
+
+.photo_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  height: fit-content;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+
+  color: black;
+  font-size: 1em;
+}

@@ -1,0 +1,19 @@
+.container{
+  width: 240px;
+  margin-top: 50px;
+  margin-left: 40%;
+}
+.container_select{
+  display: flex;
+  flex-direction: column;
+}
+.container_data{
+  margin-top: 20px;
+  display: flex;
+  display: none;
+}
+.container_block > div{
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
